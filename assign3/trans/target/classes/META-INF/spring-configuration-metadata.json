@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "server",
+      "type": "com.yufop.tran.config.ApplicationRunnerImpl",
+      "sourceType": "com.yufop.tran.config.ApplicationRunnerImpl"
+    }
+  ],
+  "properties": [
+    {
+      "name": "server.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yufop.tran.config.ApplicationRunnerImpl"
+    }
+  ],
+  "hints": []
+}

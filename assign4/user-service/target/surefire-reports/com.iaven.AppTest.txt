@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.iaven.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 54.964 s <<< FAILURE! - in com.iaven.AppTest
+contextLoads  Time elapsed: 25.02 s  <<< ERROR!
+org.springframework.mail.MailSendException: 
+Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.qq.com, 465; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.qq.com, 465; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+	at com.iaven.AppTest.contextLoads(AppTest.java:28)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.qq.com, 465; timeout -1
+	at com.iaven.AppTest.contextLoads(AppTest.java:28)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at com.iaven.AppTest.contextLoads(AppTest.java:28)
+
